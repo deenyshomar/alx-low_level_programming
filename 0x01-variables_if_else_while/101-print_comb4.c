@@ -3,25 +3,30 @@
 /**
  * main - Prints 3 combination of numbers
  *
+ * Description: program that prints all possible different combinations of 3d
+ *
+ * Program: by deenyshomar
+ *
  * Return: Always (Success)
+ *
  */
 int main(void)
 {
-	int c, i, k;
+	int d, s, z;
 
-	for (c = '0'; c <= '9'; c++)
+	for (d = '0'; d <= '9'; d++)
 	{
-		for (i = '0'; i <= '9'; i++)
+		for (s = '0'; s <= '9'; s++)
 		{
-			for (k = '0'; k <= '9'; k++)
+			for (z = '0'; z <= '9'; z++)
 			{
-				if (c < i && i < k)
+				if (d < s && s < z)
 				{
-					putchar(c);
-					putchar(i);
-					putchar(k);
+					putchar(d);
+					putchar(s);
+					putchar(z);
 
-					if (c != '7')
+					if (d != '7')
 					{
 						putchar(',');
 						putchar(' ');

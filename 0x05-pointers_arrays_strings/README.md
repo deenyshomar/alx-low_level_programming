@@ -1,0 +1,1 @@
+Pointers are used for storing address of dynamically allocated arrays and for arrays which are passed as arguments to functions, So let us see what are those arrays and what are we going to point with the pointers.

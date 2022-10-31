@@ -2,6 +2,7 @@
 
 /**
  * set_string -  sets a string
+ *
  * @s: string to set
  * @to: value to set to
  */

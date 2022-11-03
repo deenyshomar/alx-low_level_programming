@@ -12,8 +12,7 @@
 
 void _puts_recursion(char *s)
 {
-	char s[] = "Puts with recursion";
+	s[] = "Puts with recursion";
 
 	_puts_recursion(s);
-	_puts(s);
 }

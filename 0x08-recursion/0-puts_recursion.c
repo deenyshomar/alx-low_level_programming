@@ -1,18 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * _puts_recursion - function that puts with recursion
- *
- * Return: nothing(void)
- *
- * @s: the arguments that will assign to the string
- *
+ * _puts_recursion - uses recursion
+ * @s: string to recurse through
  */
 
 void _puts_recursion(char *s)
 {
-	s[20] = "Puts with recursion";
-
-	_puts_recursion(s);
+	if (*s)
+	{
+		_putchar(*s);
+		_puts_recursion(++s);
+	}
+	else
+		_putchar('\n');
 }
